@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Logs
+logs/*
+!logs/.gitkeep
+npm-debug.log*
+
+# Runtime artifacts (generated at runtime, not source)
+recordings/*
+!recordings/.gitkeep
+uploads/*
+!uploads/.gitkeep
+reports/*
+!reports/.gitkeep
+screenshots/*
+!screenshots/.gitkeep
+videos/*
+!videos/.gitkeep
+generated-tests/typescript/*
+!generated-tests/typescript/.gitkeep
+generated-tests/javascript/*
+!generated-tests/javascript/.gitkeep
+
+# Local database
+backend/data/
+
+# Test / coverage
+coverage/
+
+# Vite
+frontend/dist/
